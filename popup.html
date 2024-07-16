@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      min-width: 250px;
+      background-color: #1e1e1e;
+      color: #00ff00;
+      font-family: 'Courier New', Courier, monospace;
+    }
+    h3 {
+      text-align: center;
+      color: #00ff00;
+      text-shadow: 0 0 10px #00ff00;
+    }
+    label {
+      display: block;
+      margin: 10px 0;
+    }
+    input[type="radio"] {
+      margin-right: 10px;
+    }
+    #custom-settings {
+      display: none;
+      margin-top: 10px;
+      padding: 10px;
+      border: 1px solid #00ff00;
+      border-radius: 5px;
+    }
+    button {
+      display: block;
+      width: 100%;
+      padding: 10px;
+      background-color: #00ff00;
+      border: none;
+      color: #1e1e1e;
+      cursor: pointer;
+      margin-top: 10px;
+      font-weight: bold;
+    }
+    button:hover {
+      background-color: #00cc00;
+    }
+    .proxy-option {
+      display: flex;
+      align-items: center;
+      margin: 10px 0;
+    }
+    .proxy-option input {
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h3>SyFoNN-Proxy Settings</h3>
+  <form id="proxy-form">
+    <div class="proxy-option">
+      <input type="radio" name="proxy" value="turn_on" id="turn_on">
+      <label for="turn_on">Turn On Proxy</label>
+    </div>
+    <div class="proxy-option">
+      <input type="radio" name="proxy" value="turn_off" id="turn_off">
+      <label for="turn_off">Turn Off Proxy</label>
+    </div>
+    <div class="proxy-option">
+      <input type="radio" name="proxy" value="custom_input" id="custom_input">
+      <label for="custom_input">ConnectToCustomProxy</label>
+    </div>
+    <div id="custom-settings">
+      <label for="proxy-ip">IP:</label>
+      <input type="text" id="proxy-ip">
+      <label for="proxy-port">Port:</label>
+      <input type="number" id="proxy-port">
+      <label for="same-proxy"><input type="checkbox" id="same-proxy"> Use the same proxy for HTTPS</label>
+    </div>
+    <div class="proxy-option">
+      <input type="radio" name="proxy" value="local_proxy" id="local_proxy">
+      <label for="local_proxy">MyLocalProxy</label>
+    </div>
+    <button type="button" id="save">Submit</button>
+  </form>
+  <script src="popup.js"></script>
+</body>
+</html>
