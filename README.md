@@ -40,6 +40,8 @@ To build and sign the extension, follow these steps:
 3. Sign the extension:
    ```sh
    web-ext sign --api-key=<your-api-key> --api-secret=<your-api-secret> --channel=unlisted
+   OR
+   web-ext sign --api-key=<your-api-key> --api-secret=<your-api-secret> --channel=listed
    ```
 
 Replace `<your-api-key>` and `<your-api-secret>` with the values obtained from the Mozilla Developer Hub.
