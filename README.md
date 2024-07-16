@@ -1,7 +1,7 @@
 # SyFoNN-PRoxy
 
 ## Description
-Firefox extension that allows users to easily switch between different proxy settings directly from the browser action popup. Designed with a hacker theme, it provides a streamlined interface for managing proxy configurations.
+Firefox extension that allows users to easily switch between different proxy settings directly from the browser action popup, it provides a streamlined interface for managing proxy configurations.
 
 ## Features
 - **Turn On Proxy**: Enable the proxy with predefined settings.
