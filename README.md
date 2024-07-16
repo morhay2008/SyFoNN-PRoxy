@@ -48,9 +48,9 @@ Here is the `manifest.json` used in this extension:
 ```json
 {
   "manifest_version": 2,
-  "name": "Hacker Proxy Settings",
+  "name": "SyFoNN PRoxy Settings",
   "version": "1.4",
-  "description": "Change Firefox proxy settings with a hacker theme",
+  "description": "This extension is ideal for users who frequently switch proxy settings for various purposes, such as testing, security, or bypassing network restrictions. Its intuitive design and functionality make it a powerful tool for both casual users and professionals.",
   "icons": {
     "48": "icons/icon.png"
   },
