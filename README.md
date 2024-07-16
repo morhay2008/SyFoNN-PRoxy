@@ -9,6 +9,8 @@ Firefox extension that allows users to easily switch between different proxy set
 - **Custom Proxy Input**: Enter custom proxy details (IP and port) for manual configuration.
 - **My Local Proxy**: Use a local proxy setup (127.0.0.1:8080).
 
+![image](https://github.com/user-attachments/assets/f40ee2c5-9b08-4443-85b6-793f2235219b)
+
 ## Permissions
 This extension requires the following permissions:
 - `storage`: To store user preferences.
