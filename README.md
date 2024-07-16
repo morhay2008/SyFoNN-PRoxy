@@ -40,7 +40,9 @@ To build and sign the extension, follow these steps:
 3. Sign the extension:
    ```sh
    web-ext sign --api-key=<your-api-key> --api-secret=<your-api-secret> --channel=unlisted
+
    OR
+
    web-ext sign --api-key=<your-api-key> --api-secret=<your-api-secret> --channel=listed
    ```
 
